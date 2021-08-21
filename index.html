@@ -47,8 +47,8 @@
 
                         <!-- Delivery Option -->
                         <h5>Choose your delivery option</h5>
-                        <button type="button" class="btn btn-outline-dark" id="deliveryFree">Friday, Aug 25 FREE Prime Delivery</button>
-                        <button type="button" class="btn btn-outline-dark" id="deliveryCharge">Friday, Aug 21 Delivery charge $20</button>
+                        <button type="button" class="btn btn-outline-dark" id="delivery_free">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button type="button" class="btn btn-outline-dark" id="delivery_charge">Friday, Aug 21 Delivery charge $20</button>
                         <br><br><br>
 
 
@@ -56,34 +56,35 @@
                         <div class="mt-5">
                             <div class="text_font me-5 row ">
                                 <h4 class="col-6">Best Price</h4>
-                                <h4 class="col-6">$<span id="bestPrice">1299</span></h4>
+                                <h4 class="col-6">$<span id="best_price">1299</span></h4>
                             </div>
                             <hr>
                             <div class="text_font me-5 row">
                                 <h4 class="col-6">Extra Memory Cost</h4>
-                                <h4 class="col-6">$<span id="memoryCost">0</span></h4>
+                                <h4 class="col-6">$<span id="memory_cost">0</span></h4>
                             </div>
                             <hr>
                             <div class="text_font me-5 row">
                                 <h4 class="col-6">Extra Storage Cost</h4>
-                                <h4 class="col-6">$<span id="storageCost">0</span></h4>
+                                <h4 class="col-6">$<span id="storage_cost">0</span></h4>
                             </div>
                             <hr>
                             <div class="text_font me-5 row">
                                 <h4 class="col-6">Delivery Charge</h4>
-                                <h4 class="col-6">$<span id="deliveryCost">0</span></h4>
+                                <h4 class="col-6">$<span id="delivery_cost">0</span></h4>
                             </div>
                             <hr style="color: #000000; height: 2px;">
                             <div class="text_font me-5 row">
                                 <h4 class="col-6">Total Price</h4>
-                                <h4 class="col-6">$<span id="total">1299</span></h4>
+                                <h4 class="col-6">$<span id="total_price">1299</span></h4>
                             </div>
                             <hr>
 
+                            <!-- promo code  -->
                             <div>
                                 <p>Add Pomo Code</p>
-                                <input type="text">
-                                <button class="btn-danger">Apply</button>
+                                <input id="promo_code" type="text">
+                                <button id="promo_apply" class="btn-danger">Apply</button>
                             </div>
                         </div>
 
@@ -92,7 +93,8 @@
             </div>
 
             <hr style="width: 1000px; margin-left: 180px;">
-            <h1 style="text-align: center;">Total:$<span>1299</span></h1>
+            <!-- final total  -->
+            <h1 style="text-align: center;">Total:$<span id="totalrate">1299</span></h1>
 
             <br> <br> <br> <br>
 
